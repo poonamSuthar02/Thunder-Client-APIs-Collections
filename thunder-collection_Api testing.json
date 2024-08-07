@@ -1,0 +1,62 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Api testing",
+    "collectionId": "9b1a1acc-639d-4875-be73-60cbc6f13d31",
+    "dateExported": "2024-08-07T15:52:13.987Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "746c1c8d-edca-4ea4-8cc7-6b1803650630",
+            "colId": "9b1a1acc-639d-4875-be73-60cbc6f13d31",
+            "containerId": "",
+            "name": "version",
+            "url": "http://localhost:8080/version",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-08-07T10:52:23.824Z",
+            "modified": "2024-08-07T10:53:58.172Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"Path\" : \"C:/TestFolder/first.bp\"\n\n\n}\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "1e3f028e-9982-4772-af2c-77c55d63ff03",
+            "colId": "9b1a1acc-639d-4875-be73-60cbc6f13d31",
+            "containerId": "",
+            "name": "health",
+            "url": "http://localhost:8080/version",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-08-07T10:54:16.695Z",
+            "modified": "2024-08-07T13:15:45.968Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"Path\" : \"C:/TestFolder/first.bp\"\n\n\n}\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "38c20ef6-0f09-4f91-a7d9-a328e5b309c0",
+            "colId": "9b1a1acc-639d-4875-be73-60cbc6f13d31",
+            "containerId": "",
+            "name": "Load BP",
+            "url": "http://localhost:8080/control/begin-job",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-08-07T13:28:57.802Z",
+            "modified": "2024-08-07T14:34:24.971Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"DeviceQty\" : 4\r\n}\r\n",
+                "form": []
+            }
+        }
+    ],
+    "ref": "9uLBCPmSk1i2ZeUdF_iSI4RvBTg6Ef3DXqOZT1iSm6PMVig311fbeWUBDCsEFf0SenV-5pUfkNU7HZJ_7yt9Zg"
+}
